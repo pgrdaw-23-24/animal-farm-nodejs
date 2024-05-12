@@ -1,5 +1,6 @@
 name: Animal Farm Node.js CI #
 
+
 on: #
   push:
     branches:
@@ -7,6 +8,7 @@ on: #
   pull_request:
     branches:
       - main
+
 
 jobs: #
   build:
